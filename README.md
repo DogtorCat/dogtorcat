@@ -13,4 +13,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+--><form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="max-w-xl mx-auto space-y-4 p-6 bg-white rounded-lg shadow-md">
+    <input type="text" name="nombre" placeholder="Nombre" class="w-full p-3 border rounded" required>
+    <input type="email" name="correo" placeholder="Correo electrónico" class="w-full p-3 border rounded" required>
+    <textarea name="mensaje" placeholder="Mensaje o tipo de servicio" class="w-full p-3 border rounded" rows="5" required></textarea>
+    <button type="submit" class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600 transition-transform transform hover:scale-105">Enviar Mensaje</button>
+</form>
